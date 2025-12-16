@@ -33,7 +33,15 @@ Al ejecutar la herramienta por primera vez, se generará un archivo `config_moni
 
 ## 📸 Capturas de Pantalla
 
-*(Aquí subirás tus imágenes después)*
+![Vista Principal](img/demo.png)
+
+> *Interfaz gráfica mostrando monitoreo en tiempo real y detección de latencia.*
+
+## ☕ Apoya el Proyecto
+
+Si esta herramienta te ha ahorrado tiempo o dolores de cabeza en el trabajo, ¡invítame a un café!
+
+<a href="https://buymeacoffee.com/omvergara85" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## 📄 Licencia
 

@@ -247,7 +247,7 @@ function Cargar-Escenario($tipo, $custom=$null){
 function Show-PrinterDialog {
     $dlg = New-Object System.Windows.Forms.Form; $dlg.Text = "Configurar Impresoras"; $dlg.Size = New-Object System.Drawing.Size(400, 400); $dlg.StartPosition = "CenterParent"
     $lbl = New-Object System.Windows.Forms.Label; $lbl.Text = "Ingrese las impresoras (Nombre, IP) - Una por línea:"; $lbl.Dock = "Top"; $lbl.Padding = New-Object System.Windows.Forms.Padding(10); $lbl.Height = 40
-    $txt = New-Object System.Windows.Forms.TextBox; $txt.Multiline = $true; $txt.Dock = "Fill"; $txt.ScrollBars = "Vertical"; $txt.Text = "HP Gerencia,192.168.1.50`nRicoh Bodega,192.168.1.51"
+    $txt = New-Object System.Windows.Forms.TextBox; $txt.Multiline = $true; $txt.Dock = "Fill"; $txt.ScrollBars = "Vertical"; $txt.Text = "HP Gerencia,192.168.1.50`r`nRicoh Bodega,192.168.1.51"
     $pnlBtn = New-Object System.Windows.Forms.Panel; $pnlBtn.Dock = "Bottom"; $pnlBtn.Height = 50
     $btnOK = New-Object System.Windows.Forms.Button; $btnOK.Text = "CARGAR"; $btnOK.DialogResult = "OK"; $btnOK.Dock="Right"; $btnOK.Width=100
     $btnCancel = New-Object System.Windows.Forms.Button; $btnCancel.Text = "CANCELAR"; $btnCancel.DialogResult = "Cancel"; $btnCancel.Dock="Left"; $btnCancel.Width=100

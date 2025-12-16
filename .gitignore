@@ -1,3 +1,4 @@
 config_monitor.json
 *.csv
 *.log
+*.exe
